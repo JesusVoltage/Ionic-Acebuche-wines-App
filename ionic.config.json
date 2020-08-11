@@ -1,0 +1,7 @@
+{
+  "name": "Acebuche",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
