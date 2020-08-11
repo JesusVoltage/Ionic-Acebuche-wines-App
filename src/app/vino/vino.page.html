@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary" >
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title >{{vino.nombre}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="../../assets/img/vinos/{{vino.id}}.png" class="img-center">
+  </ion-card>
+
+
+  <div>
+    
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h6>Pais</h6>
+        <p>{{vino.pais}}</p>
+      </ion-col>
+      <ion-col>        
+        <h6>Vinificacion</h6>
+        <p>{{vino.vinificacion}}</p>
+      </ion-col>
+    </ion-row>
+  
+    <ion-row>
+      <ion-col size="6">
+        <h6>Región</h6>
+        <p>{{vino.region}}</p>
+      </ion-col>
+      <ion-col>
+        <h6>Crianza</h6>
+        <p>{{vino.crianza}}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <h6>Denominación de origen</h6>
+        <p>{{vino.denominacion}}</p>
+      </ion-col>
+      <ion-col>
+        <h6>Variedad de la uva</h6>
+        <p>{{vino.variedad}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <img src="../../assets/img/acebuche_vino.png" alt="">
+</ion-content>
