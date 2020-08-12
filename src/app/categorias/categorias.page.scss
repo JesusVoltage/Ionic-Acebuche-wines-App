@@ -1,6 +1,11 @@
 ion-content{
 
     --ion-background-color:#ec691c;
+    --background: none;
+    background-image: url('../../assets/img/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ion-card{

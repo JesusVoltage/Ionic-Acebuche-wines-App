@@ -1,10 +1,19 @@
 ion-content{
 
     --ion-background-color:#ec691c;
+    --background: none;
+    background-image: url('../../assets/img/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ion-item{
     --ion-background-color:WHITE;
     margin: 5px;
     border-radius: 3px;
+}
+
+ion-list{
+    background-color: rgba(0, 238, 255, 0);
 }

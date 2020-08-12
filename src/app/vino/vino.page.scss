@@ -1,8 +1,12 @@
 ion-content{
 
     --ion-background-color:#ec691c;
+    --background: none;
+    background-image: url('../../assets/img/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .container-wine{
     width: 80%;
 
@@ -14,8 +18,11 @@ ion-content{
     display: block;
 }
 
+
 ion-col{
     text-align: center;
     color: white;
     border: white solid 1px;
+    background-color: rgba(138, 67, 0, 0.411);
+
 }
