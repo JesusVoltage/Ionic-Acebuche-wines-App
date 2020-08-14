@@ -12,8 +12,17 @@ ion-item{
     --ion-background-color:WHITE;
     margin: 5px;
     border-radius: 3px;
+    opacity: 90%;
 }
 
 ion-list{
     background-color: rgba(0, 238, 255, 0);
+}
+ion-ripple-effect{
+    padding: 15px;
+}
+
+.textito{
+    text-align: right;
+    margin: 0;
 }
